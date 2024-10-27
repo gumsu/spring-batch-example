@@ -8,4 +8,6 @@ import org.springframework.stereotype.Repository;
 @Mapper
 public interface CustomerRepository {
     List<Customer> selectCustomer();
+
+    void insertCustomer(Customer customer);
 }

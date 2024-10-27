@@ -8,8 +8,8 @@ public class Customer {
 
     private Long customerNumber;
     private String customerName;
-    private String contractLastName;
-    private String contractFirstName;
+    private String contactLastName;
+    private String contactFirstName;
     private String phone;
     private String addressLine1;
     private String addressLine2;

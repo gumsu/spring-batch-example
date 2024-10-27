@@ -5,4 +5,12 @@
   <select id="selectCustomer" resultType="com.example.springbatchexample.Customer">
     SELECT * FROM customers
   </select>
+
+  <insert id="insertCustomer" parameterType="com.example.springbatchexample.Customer">
+    INSERT INTO customers (customerNumber, customerName, contactLastName, contactFirstName, phone,
+                           addressLine1, addressLine2, city, state, postalCode, country,
+                           salesRepEmployeeNumber, creditLimit)
+    VALUES (#{customerNumber}, #{customerName}, #{contactLastName}, #{contactFirstName}, #{phone}
+           , #{addressLine1}, #{addressLine2}, #{city}, #{state}, #{postalCode}, #{country}, #{salesRepEmployeeNumber}, #{creditLimit})
+  </insert>
 </mapper>
