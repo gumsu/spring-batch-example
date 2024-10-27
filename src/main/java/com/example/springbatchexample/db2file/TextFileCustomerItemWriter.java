@@ -1,5 +1,6 @@
-package com.example.springbatchexample;
+package com.example.springbatchexample.db2file;
 
+import com.example.springbatchexample.Customer;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

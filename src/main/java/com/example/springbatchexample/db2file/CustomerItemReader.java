@@ -1,5 +1,6 @@
-package com.example.springbatchexample;
+package com.example.springbatchexample.db2file;
 
+import com.example.springbatchexample.Customer;
 import java.util.List;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.batch.item.ItemReader;
